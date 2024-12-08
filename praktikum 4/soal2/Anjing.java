@@ -10,7 +10,7 @@ public class Anjing extends HewanPeliharaan {
         this.kemampuan = kemampuan;
     }
 
-    public void display() {
+    public void displayDetailAnjing() {
         super.display();
         System.out.println("Memilikinarna Bulu: " + warnaBulu);
         System.out.println("Memiliki kemampuan: " + kemampuan);
