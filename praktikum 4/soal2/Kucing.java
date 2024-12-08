@@ -8,7 +8,7 @@ public class Kucing extends HewanPeliharaan {
         this.warnaBulu = warnaBulu;
     }
 
-    public void display() {
+    public void displayDetailKucing() {
         super.display();
         System.out.println("Memiliki warna Bulu: " + warnaBulu);
     }
